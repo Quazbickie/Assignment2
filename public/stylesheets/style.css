@@ -16,5 +16,8 @@ html {
     display: inline-flex;
     margin-left:75px;
     font-size: 20px;
+}
+
+.nav-bar a {
     color: #FFE8D4;
 }
