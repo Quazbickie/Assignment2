@@ -1,5 +1,10 @@
+html {
+    background-color: #7EB2DD;
+}
+
 .title {
     text-align: center;
+    color: #FFE8D4;
 }
 
 .nav-bar {
@@ -11,4 +16,5 @@
     display: inline-flex;
     margin-left:75px;
     font-size: 20px;
+    color: #FFE8D4;
 }
