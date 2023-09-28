@@ -1,23 +1,66 @@
 html {
     background-color: #7EB2DD;
+    color: #FFE8D4;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .title {
     text-align: center;
-    color: #FFE8D4;
+    font-size:x-large;
 }
 
+/*
+* Align nav-bar to the right by using margin-left
+* margin-bottom to give the nav-bar some breathing room
+*/
 .nav-bar {
-    float:right;
-    margin-right: 10%;
+    margin-left: 50%;
+    margin-bottom: 50px;
 }
 
+/*
+* Display list items inline to display them horizontally
+* margin-left to give the items some spacing
+* font size and weight
+*/
 .nav-bar li {
-    display: inline-flex;
+    display: inline;
     margin-left:75px;
     font-size: 20px;
+    font-weight: bold;
 }
 
+/*
+* Color nav-bar links
+*/
 .nav-bar a {
     color: #FFE8D4;
+}
+
+/*
+* Make each chilf div of the home section 48% wide and float left to align on screen
+*
+*/
+.home-child {
+    float:left;
+    width: 48%;
+}
+
+
+/*
+* Styling for paragraph of home-child div
+*/
+.home-child p {
+    text-align: justify;
+    padding: 50px;
+    font-size: 25px;
+    font-weight: lighter;
+}
+
+/*
+* Styling for img of home-child div
+*/
+.home-child img {
+    padding-left: 60px;
+    border-radius: 50%;
 }
