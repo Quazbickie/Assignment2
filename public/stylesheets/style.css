@@ -1,6 +1,6 @@
 html {
-    background-color: #7EB2DD;
-    color: #FFE8D4;
+    background-color: #053B50;
+    color: #EEEEEE;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -14,8 +14,9 @@ html {
 * margin-bottom to give the nav-bar some breathing room
 */
 .nav-bar {
-    margin-left: 66%;
-    margin-bottom: 50px;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 5%;
 }
 
 /*
@@ -34,18 +35,21 @@ html {
 * Color nav-bar links
 */
 .nav-bar a {
-    color: #FFE8D4;
+    color: #EEEEEE;
 }
 
 /*
-* Make each chilf div of the home section 48% wide and float left to align on screen
-*
+* use flex to place home container and children
 */
-.home-child {
-    float:left;
-    width: 50%;
+.home-container {
+    border: 0.5px solid red;
+    display: flex;
+    justify-content: space-evenly;
 }
 
+.home-child {
+    border: 0.5px solid red;
+}
 
 /*
 * Styling for paragraph of home-child div
@@ -61,6 +65,31 @@ html {
 * Styling for img of home-child div
 */
 .home-child img {
-    padding-left: 60px;
     border-radius: 50%;
 }
+
+.pricing-container {
+    margin-top: 1in;
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid red;
+}
+
+.pricing-child {
+    padding: 40px;
+    border: 0.8px solid #64ccc5;
+    background-color: #176B87;
+    border-radius: 10%;
+    
+}
+
+.pricing-child li {
+    margin: 10px;
+    font-size: 20px;
+}
+
+.pricing-child h3 {
+    text-align: center;
+}
+
+
