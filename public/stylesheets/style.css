@@ -14,7 +14,7 @@ html {
 * margin-bottom to give the nav-bar some breathing room
 */
 .nav-bar {
-    margin-left: 50%;
+    margin-left: 66%;
     margin-bottom: 50px;
 }
 
@@ -43,7 +43,7 @@ html {
 */
 .home-child {
     float:left;
-    width: 48%;
+    width: 50%;
 }
 
 
