@@ -38,10 +38,16 @@ html {
     color: #EEEEEE;
 }
 
+.page-container {
+    display: flex;
+    flex-direction: column;
+}
+
 /*
 * use flex to place home container and children
 */
 .home-container {
+    margin-top: 2in;
     display: flex;
     justify-content: space-evenly;
 }
@@ -69,7 +75,7 @@ html {
 }
 
 .pricing-container {
-    margin-top: 1in;
+    margin-top: 2in;
     display: flex;
     justify-content: space-evenly;
 }
@@ -117,6 +123,32 @@ html {
     background-color: #64ccc5;
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
 }
+
+
+.about-container {
+    margin-top: 2in;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.about-container-text {
+    text-align: justify;
+    padding: 50px;
+    font-size: 25px;
+    font-weight: lighter;
+} 
+
+
+.about-container-image img {
+    margin-top: 0.7in;
+    flex-shrink: 1;
+    padding: 10px;
+    border-radius: 15px;    
+}
+
+
+
+
 
 
 
