@@ -6,7 +6,7 @@ html {
 
 .title {
     text-align: center;
-    font-size:x-large;
+    font-size:50px;
 }
 
 /*
@@ -47,7 +47,7 @@ html {
 * use flex to place home container and children
 */
 .home-container {
-    margin-top: 2in;
+    margin-top: 1in;
     display: flex;
     justify-content: space-evenly;
 }
@@ -74,11 +74,18 @@ html {
     border-radius: 50%;
 }
 
+.section-header {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: -1.5in;
+}
+
 .pricing-container {
     margin-top: 2in;
     display: flex;
     justify-content: space-evenly;
 }
+
 
 .pricing-child {
     padding: 40px;
@@ -97,7 +104,7 @@ html {
 }
 
 
-.pricing-child h3 {
+.pricing-child h3, h4 {
     text-align: center;
 }
 
@@ -126,22 +133,28 @@ html {
 
 
 .about-container {
-    margin-top: 2in;
+    margin-top: 1in;
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: column;
 }
 
-.about-container-text {
+.about-container-child {
+    margin: 1% 5% 1%;
+    display: flex;
+    flex-direction: row;
+}
+
+.about-container-text { 
     text-align: justify;
-    padding: 50px;
+    padding: 40px;
     font-size: 25px;
     font-weight: lighter;
+    
 } 
 
 
 .about-container-image img {
     margin-top: 0.7in;
-    flex-shrink: 1;
     padding: 10px;
     border-radius: 15px;    
 }
