@@ -71,7 +71,7 @@ html {
 * Styling for img of home-child div
 */
 .home-child-image img {
-    border-radius: 50%;
+    border-radius: 200px;
 }
 
 .section-header {
@@ -147,7 +147,7 @@ html {
 .about-container-text { 
     text-align: justify;
     padding: 40px;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: lighter;
     
 } 
@@ -156,7 +156,7 @@ html {
 .about-container-image img {
     margin-top: 0.7in;
     padding: 10px;
-    border-radius: 15px;    
+    border-radius: 100px;    
 }
 
 
