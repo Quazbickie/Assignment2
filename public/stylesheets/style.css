@@ -36,6 +36,11 @@ html {
 */
 .nav-bar a {
     color: #EEEEEE;
+    text-decoration: none;
+}
+
+.nav-bar a:hover {
+    color: #d4d46c;
 }
 
 .page-container {
@@ -132,6 +137,7 @@ html {
 .button:hover {
     background-color: #64ccc5;
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    cursor:pointer;
 }
 
 
