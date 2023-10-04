@@ -37,6 +37,7 @@ html {
 .nav-bar a {
     color: #EEEEEE;
     text-decoration: none;
+    transition: color 0.4s;
 }
 
 .nav-bar a:hover {
@@ -116,7 +117,8 @@ html {
     text-align: center;
 }
 
-.list-icon {
+.list-icon {   
+    margin-top: 5px;
     margin-right: 4px;
     filter: invert(97%) sepia(8%) saturate(594%) hue-rotate(259deg) brightness(119%) contrast(87%);
     height:20px;
@@ -182,6 +184,14 @@ html {
     border-radius: 100px;    
 }
 
+.footer {
+    margin-top: 0.5in;
+}
+
+.footer-copy {
+    display: flex;
+    justify-content: flex-end;
+}
 
 
 
